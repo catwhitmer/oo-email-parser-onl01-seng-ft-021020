@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    
+name = original_string.sub(/^my name is: /, '')
   end
   
 end
