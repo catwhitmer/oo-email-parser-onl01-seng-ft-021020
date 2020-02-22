@@ -11,8 +11,11 @@ class EmailAddressParser
   end
   
   def parse
-name = original_string.sub(/^my name is: /, '')
+
   end
   
 end
 
+original_string = "my name is: andrew"
+matches = original_string.match /^my name is: (.*)/
+name = matches[1]
