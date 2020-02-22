@@ -11,11 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-
+    
   end
   
 end
-
-
-matches = original_string.match /^my name is: (.*)/
-name = matches[1]
