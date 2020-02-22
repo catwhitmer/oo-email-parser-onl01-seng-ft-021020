@@ -15,3 +15,4 @@ name = original_string.sub(/^my name is: /, '')
   end
   
 end
+
