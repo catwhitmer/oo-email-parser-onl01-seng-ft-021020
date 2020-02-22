@@ -16,6 +16,6 @@ class EmailAddressParser
   
 end
 
-original_string = "my name is: andrew"
+
 matches = original_string.match /^my name is: (.*)/
 name = matches[1]
